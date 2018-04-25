@@ -1,0 +1,12 @@
+export const ADD_STOCK = 'ADD_STOCK';
+export const ADD_STOCK_SUCCESS = 'ADD_STOCK_SUCCESS';
+
+export const ADD_TRADE = 'ADD_TRADE';
+export const ADD_TRADE_SUCCESS = 'ADD_TRADE_SUCCESS';
+
+export const REMOVE_STOCK = 'REMOVE_STOCK';
+
+export const UPDATE_STOCKS = 'UPDATE_STOCKS';
+export const UPDATE_STOCKS_SUCCESS = 'UPDATE_STOCKS_SUCCESS';
+
+export const UPDATE_VIEW = 'UPDATE_VIEW';

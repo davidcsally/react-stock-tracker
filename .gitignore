@@ -9,3 +9,6 @@ build
 
 # vscode settings
 .vscode
+
+# secret files
+key.js
