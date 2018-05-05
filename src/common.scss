@@ -1,1 +1,8 @@
 @import "scss/colors";
+
+@mixin container-flex($flexdirection: row) {
+  display: flex;
+  flex-direction: $flexdirection;
+  align-items: center;
+  justify-content: center;
+}
