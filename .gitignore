@@ -12,3 +12,6 @@ build
 
 # secret files
 key.js
+
+# other
+yarn-error.log
