@@ -62,7 +62,6 @@ class StockList extends Component {
       : this.renderPortfolio(stocks);
     return (
       <div styleName="container">
-        David's Stock Tracker!
         {list}
         <div
           styleName="add-container"
