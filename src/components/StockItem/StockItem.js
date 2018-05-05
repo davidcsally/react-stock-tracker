@@ -2,9 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './StockItem.scss';
 
-const StockItem = ({ ticker, price, volume, timestamp }) => (
+const StockItem = ({ ticker, price, volume, timestamp, valueChange = 0.15 }) => (
   <div styleName="container">
-    {ticker}  |  {price}
+    <p styleName="ticker">{ticker}</p>
+    <span styleName="price">{price}</span>
+    <p styleName="value-change">{valueChange}%</p> 
   </div>
 );
 

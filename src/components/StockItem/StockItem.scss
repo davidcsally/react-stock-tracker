@@ -1,10 +1,28 @@
 @import '../../common.scss';
 
 .container {
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  background-color: #181717;
-  color: #fff;
-  font-size: 28px;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  @include container-flex(row);
+  justify-content: space-between;
+  background-color: $background-green;
+  border: solid 1px $border-white;
+  height: 100px;
+  padding: 0 5px;
+}
+
+.ticker {
+  font-family: AndaleMono;
+  font-size: 36px;
+  color: $white;
+}
+
+.price {
+  font-family: AndaleMono;
+  font-size: 36px;
+  color: $white;
+}
+
+.value-change {
+  font-family: AvenirNext;
+  font-size: 24px;
+  color: $white;
 }
